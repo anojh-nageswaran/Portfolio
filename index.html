@@ -1,183 +1,265 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 	<head>
-    	<meta charset = "UTF-8">
-    	<title> Portfolio d'Anojh Nageswaran </title>
-    	<link rel="stylesheet" href = "portfolio.css">
-		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Micro+5&family=Nanum+Gothic&family=Protest+Strike&display=swap" rel="stylesheet">
-		<script src="portfolio.js"></script>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Anojh Nageswaran — Dev Full Stack</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Tamil:wght@300;400;600&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	</head>
 	<body>
-     	<header>
-			<!--INTRODUCTION-->	
-        	<div class="presentation">
-				<div class="pp"><img src="img/IMG_1117.jpg" alt="Photopro"></div>
-				<div class="info">
-					<h2>Yo! Je m'appelle <span class="prenomanime">Anojh Nageswaran</span>. 
-					Développeur Informatique spécialisé dans le web et le mobile.</h2>
-					<h3>Information sur moi</h3>
-					<p>Je m'appelle Anojh Nageswaran et je suis titulaire d’un Master Création et Édition Numérique de l’Université Paris 8. Mon parcours a débuté par un DUT en Informatique à l’Université Sorbonne Paris Nord, où j'ai acquis les bases de mon métier. Pour ma troisième année, j’ai choisi d’approfondir mes connaissances en développement web et mobile via une Licence Professionnelle au CNAM, orientée Business Intelligence. Cela m’a permis de mieux appréhender la gestion de données complexes dans un cadre professionnel.
-						J’ai ensuite intégré le Master Création et Édition Numérique avec la volonté de ne pas me limiter à l'aspect technique, mais de m’ouvrir aux domaines du graphisme et de l’UX/UI Design. Ce cursus a été un véritable terrain d’apprentissage pratique, me permettant d’étendre ma réflexion sur l’interactivité et le comportement de l’utilisateur face au produit. J’y ai développé des projets innovants, souvent en équipe, au sein desquels j’ai pu faire valoir ma culture technique tout en adoptant une approche créative. 
-						Aujourd’hui, je suis capable de m’engager dans chacune des étapes d'un projet numérique, de la conception visuelle jusqu’à sa mise en ligne.
-					</p>
-					<div class="cv">
-                    	<a href="doc/CV_ANOJH_NAGESWARAN.pdf" class="main-btn num1">
-							<div class="button__line"></div>
-    						<div class="button__line"></div>
-                        	<span class="btn-text">Téléchargez le CV</span>
-							<div class="button__drow1"></div>
-    						<div class="button__drow2"></div>
-                    	</a>
-					</div>
-                </div>
-        	</div>
-		</header>
-		<main>
+		<div class="speed-lines"></div>
+		
+		<!-- NAV -->
+		<nav>
+		  <a class="nav-logo" href="#">
+		    <span class="dot"></span>
+		    ANOJH.DEV
+		  </a>
+		  <ul>
+		    <li><a href="#about">À propos</a></li>
+		    <li><a href="#parcours">Parcours</a></li>
+		    <li><a href="#projets">Projets</a></li>
+		    <li><a href="#contact">Contact</a></li>
+		  </ul>
+		</nav>
+		
+		<!-- HERO -->
+		<div class="hero">
+		  <div class="hero-inner">
+		    <div>
+		      <div class="tamil-header">அனோஜ் நாகேஸ்வரன்</div>
+		      <div class="status-bar">Disponible · CDI / POEI</div>
+		      <h1>
+		        <span class="name-line">ANOJH</span>
+		        <span class="name-line accent">NAGES-</span>
+		        <span class="name-line accent2">WARAN</span>
+		      </h1>
+		      <p class="hero-desc">
+		        Développeur Full Stack — React, Node.js, Java/Spring. Une vision utilisateur forgée par un Master en Humanités Numériques, une persévérance forgée par le terrain.
+		      </p>
+		      <div class="hero-cta">
+		        <a href="https://anojh-nageswaran.github.io/Portfolio/doc/CV_ANOJH_NAGESWARAN.pdf" class="btn-primary" target="_blank">Télécharger le CV</a>
+		        <a href="#contact" class="btn-ghost">Me contacter</a>
+		      </div>
+		    </div>
+		
+		    <div class="photo-wrap">
+		      <div class="photo-frame">
+		        <img src="https://anojh-nageswaran.github.io/Portfolio/img/IMG_1117.jpg" alt="Anojh Nageswaran">
+		      </div>
+		      <div class="stat-chip">
+		        <div class="n">5+</div>
+		        <div class="l">Projets livrés</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<div class="divider"></div>
+		
+		<!-- ABOUT -->
+		<section id="about">
+		  <div class="section-eyebrow">
+		    <span class="eyebrow-num">01</span>
+		    <span class="eyebrow-label">À propos</span>
+		  </div>
+		  <h2>TECHNIQUE & <span>CRÉATIVITÉ.</span></h2>
+		  <div class="about-grid">
+		    <div class="about-text">
+		      <p>Titulaire d'un <strong>Master en Humanités Numériques</strong> spécialisé en création et édition numérique (Paris 8). Mon parcours informatique démarre avec un <strong>DUT</strong> à Sorbonne Paris Nord, puis une <strong>Licence Pro</strong> au CNAM orientée Business Intelligence.</p>
+		      <p>Cette double culture — <strong>technique et UX</strong> — me permet d'aborder les projets avec une vision complète : de l'architecture back-end à l'expérience utilisateur.</p>
+		      <p>Persévérant et autonome, j'apprends vite sur des environnements nouveaux — comme en témoigne ma prise en main d'un CMS sans documentation à l'Observatoire de Paris.</p>
+		    </div>
+		    <div class="skills-wrap">
+		      <div class="skill-block">
+		        <h4>Développement</h4>
+		        <div class="skill-tags">
+		          <span class="skill-tag">JavaScript</span>
+		          <span class="skill-tag">React</span>
+		          <span class="skill-tag">Node.js</span>
+		          <span class="skill-tag">Next.js</span>
+		          <span class="skill-tag">Java</span>
+		          <span class="skill-tag">Spring</span>
+		          <span class="skill-tag">Python</span>
+		          <span class="skill-tag">PHP</span>
+		          <span class="skill-tag">SQL</span>
+		          <span class="skill-tag">HTML/CSS</span>
+		        </div>
+		      </div>
+		      <div class="skill-block">
+		        <h4>Modélisation & 3D</h4>
+		        <div class="skill-tags">
+		          <span class="skill-tag">Blender</span>
+		          <span class="skill-tag">Unity 3D</span>
+		          <span class="skill-tag">Solidworks</span>
+		        </div>
+		      </div>
+		      <div class="skill-block">
+		        <h4>Design</h4>
+		        <div class="skill-tags">
+		          <span class="skill-tag">Photoshop</span>
+		          <span class="skill-tag">Illustrator</span>
+		          <span class="skill-tag">InDesign</span>
+		          <span class="skill-tag">DaVinci Resolve</span>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</section>
+		
+		<div class="divider"></div>
+		
+		<!-- PARCOURS -->
+		<section id="parcours">
+		  <div class="section-eyebrow">
+		    <span class="eyebrow-num">02</span>
+		    <span class="eyebrow-label">Parcours</span>
+		  </div>
+		  <h2>MON <span>HISTOIRE.</span></h2>
+		  <div class="two-col">
+		    <div>
+		      <h3 style="font-family:'Bebas Neue',sans-serif;font-size:1.3rem;letter-spacing:0.08em;color:var(--muted);margin-bottom:1.5rem;">Formation</h3>
+		      <div class="timeline">
+		        <div class="tl-item">
+		          <div class="tl-year">2023 — 2025</div>
+		          <div class="tl-title">Master Humanités Numériques</div>
+		          <div class="tl-sub">Création & Édition Numérique · Université Paris 8</div>
+		        </div>
+		        <div class="tl-item">
+		          <div class="tl-year">2022 — 2023</div>
+		          <div class="tl-title">Licence Pro Informatique</div>
+		          <div class="tl-sub">Web, Mobile & Business Intelligence · CNAM Paris</div>
+		        </div>
+		        <div class="tl-item">
+		          <div class="tl-year">2019 — 2022</div>
+		          <div class="tl-title">DUT Informatique</div>
+		          <div class="tl-sub">Université Sorbonne Paris Nord</div>
+		        </div>
+		        <div class="tl-item">
+		          <div class="tl-year">2016 — 2019</div>
+		          <div class="tl-title">BAC STI2D</div>
+		          <div class="tl-sub">Systèmes d'information et numérique · Lycée Diderot</div>
+		        </div>
+		      </div>
+		    </div>
+		    <div>
+		      <h3 style="font-family:'Bebas Neue',sans-serif;font-size:1.3rem;letter-spacing:0.08em;color:var(--muted);margin-bottom:1.5rem;">Expériences</h3>
+		      <div class="timeline">
+		        <div class="tl-item">
+		          <div class="tl-year">2024 — 2025</div>
+		          <div class="tl-title">Développeur Full Stack</div>
+		          <div class="tl-sub">ComKani · Agence de communication</div>
+		        </div>
+		        <div class="tl-item">
+		          <div class="tl-year">2022 — 2023</div>
+		          <div class="tl-title">Amélioration Continue IT</div>
+		          <div class="tl-sub">Microport CRM · Fabrication de pacemakers</div>
+		        </div>
+		        <div class="tl-item">
+		          <div class="tl-year">2021 — 2022</div>
+		          <div class="tl-title">Développeur Web</div>
+		          <div class="tl-sub">Stage · Observatoire de Paris</div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</section>
 
-			<!--MES COMPÉTENCES-->	
-			<section class="competence">
-				<h3>Mes Compétences</h3>
-				<div class="competence-contenant">
-					<div class="skill">
-						<h4>PROGRAMMATION</h4>
-						<ul>
-							<li>HTML/CSS</li>
-							<li>PHP</li>
-							<li>JavaScript</li>
-							<li>SQL</li>
-							<li>Java</li>
-							<li>Python</li>
-							<li>C</li>
-						</ul>
-					</div>
-					<div class="skill">
-						<h4>MODÉLISATION</h4>
-						<ul>
-							<li>Solidwork</li>
-							<li>Blender</li>
-							<li>Unity 3D</li>
-						</ul>
-					</div>
-					<div class="skill">
-						<h4>GRAPHISME</h4>
-						<ul>
-							<li>Adobe Photoshop</li>
-							<li>Adobe Illustrator</li>
-							<li>Adobe InDesign</li>
-							<li>DaVinci Resolve</li>
-						</ul>
-					</div>
-				</div>
-			</section>
-			<hr class="trait">
+		<div class="divider"></div>
 
-			<!--MON PARCOURS SCOLAIRES-->	
-			<section class="scolaire">
-				<h3>Parcours Scolaire</h3>
-				<div class="timeline">
-					<div class="outer">
-						<div class="timeline-item">
-							<div class="timeline-content">
-								<h3 class="title">2023-2025</h3>
-								<p>Master Création et Édition Numérique - <i>Université Paris 8</i></p>
-							</div>
-						</div>
-						<div class="timeline-item">
-							<div class="timeline-content">
-								<h3 class="title">2022-2023</h3>
-								<p>Licence Professionnelle en Informatique - Web, Mobile, Business Intelligence - <i>CNAM de Paris</i></p>
-							</div>
-						</div>
-						<div class="timeline-item">
-							<div class="timeline-content">
-								<h3 class="title">2019-2022</h3>
-								<p>DUT Informatique - <i>Université Sorbonne Paris Nord</i></p>
-							</div>
-						</div>
-						<div class="timeline-item">
-							<div class="timeline-content">
-								<h3 class="title">2016-2019</h3>
-								<p>BAC STI2D - <i>Lycée Polyvalent Diderot</i></p>
-								<p>Option : Système d'information et numérique</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<hr class="trait">	
+		<!-- PROJETS -->
+		<section id="projets">
+			  <div class="section-eyebrow">
+			    <span class="eyebrow-num">03</span>
+			    <span class="eyebrow-label">Projets</span>
+			  </div>
+			  <h2>CE QUE J'AI <span>CONSTRUIT.</span></h2>
+			  <div class="projects-grid">
+			
+			    <div class="project-card">
+			      <span class="panel-num">01</span>
+			      <div class="project-tech"><span class="tech-badge">WordPress</span><span class="tech-badge">PHP</span><span class="tech-badge">SQL</span></div>
+			      <div class="project-title">Éloge de la Curiosité</div>
+			      <p class="project-desc">Récupération de données après une injection SQL, puis refonte complète du site blog avec nouveau design et fonctionnalités.</p>
+			      <a href="https://www.elogedelacuriosite.com" class="project-link" target="_blank">Voir le site <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+			    </div>
+			
+			    <div class="project-card">
+			      <span class="panel-num">02</span>
+			      <div class="project-tech"><span class="tech-badge">React</span><span class="tech-badge">Node.js</span><span class="tech-badge">Next.js</span></div>
+			      <div class="project-title">Site Agence ComKani</div>
+			      <p class="project-desc">Développement du site vitrine de l'agence avec un stack React / Next.js pour des performances optimales et un rendu moderne.</p>
+			    </div>
+			
+			    <div class="project-card">
+			      <span class="panel-num">03</span>
+			      <div class="project-tech"><span class="tech-badge">WordPress</span><span class="tech-badge">CSS</span></div>
+			      <div class="project-title">Si Chim</div>
+			      <p class="project-desc">Site vitrine pour une entreprise de produits d'hygiène. Développé à la main, sans builder, pour des performances optimales.</p>
+			      <a href="https://www.sichim.fr" class="project-link" target="_blank">Voir le site <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+			    </div>
+			
+			    <div class="project-card">
+			      <span class="panel-num">04</span>
+			      <div class="project-tech"><span class="tech-badge">C++</span><span class="tech-badge">Python</span><span class="tech-badge">Juce</span></div>
+			      <div class="project-title">OR.IA</div>
+			      <p class="project-desc">IA de conversion : des mélodies fredonnées transformées en partition musicale. Projet de recherche réalisé en Master CEN.</p>
+			      <a href="https://github.com/anojh-nageswaran" class="project-link" target="_blank">GitHub <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+			    </div>
+			
+			    <div class="project-card">
+			      <span class="panel-num">05</span>
+			      <div class="project-tech"><span class="tech-badge">HTML</span><span class="tech-badge">CSS</span><span class="tech-badge">JS</span></div>
+			      <div class="project-title">Crêpes Chaudes</div>
+			      <p class="project-desc">Site de restaurant réalisé en Master CEN. Design soigné et expérience utilisateur fluide au cœur du projet.</p>
+			      <a href="https://github.com/anojh-nageswaran/CrepesChaudesRestaurant" class="project-link" target="_blank">GitHub <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+			    </div>
+			
+			    <div class="project-card">
+			      <span class="panel-num">06</span>
+			      <div class="project-tech"><span class="tech-badge">Python</span></div>
+			      <div class="project-title">Threes</div>
+			      <p class="project-desc">Clone du jeu Threes développé en Python. Projet tutoré de 1ère année de DUT Informatique.</p>
+			      <a href="https://github.com/anojh-nageswaran/jeu-threes" class="project-link" target="_blank">GitHub <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+			    </div>
+			
+			  </div>
+		</section>
 
-			<!--MES PROJETS-->	
-			<section class="projet">
-				<h3>Mes Projets</h3>
-				<div class="projet-item">
-					<h5>Si Chim</h5>
-					<p>Création d'un site web vitrine pour une entreprise de produit d'hygiène.</p>
-					<a href="https://www.sichim.fr" class="btndld">Accéder au site</a>
-				</div>
-				<div class="projet-item">
-					<h5>Mon Nouveau M2</h5>
-					<p>Maintenance du site et l'alléger en faisant une refonte.</p>
-					<a href="https://www.elogedelacuriosite.com" class="btndld">Accéder au site</a>
-				</div>
-				<div class="projet-item">
-					<h5>Mon Nouveau M2</h5>
-					<p>Maintenance du site et l'alléger en faisant une refonte.</p>
-					<a href="https://www.monnouveaum2.com" class="btndld">Accédez au site</a>
-				</div>
-				<div class="projet-item">
-					<h5>Éloge de la curiosité</h5>
-					<p>Récupération des données suite à une injection SQL et refonte du site.</p>
-					<a href="https://www.elogedelacuriosite.com" class="btndld">Accédez au site</a>
-				</div>
-				<div class="projet-item">
-					<h5>OR.IA</h5>
-					<p>Issue d'un projet en Deuxième année de Master CEN (C++, Juce, Python)</p>
-					<a href="#">
-						<img src="img/github.png" alt="github">
-					</a>
-				</div>
-				<div class="projet-item">
-					<h5>CRÊPES CHAUDES</h5>
-					<p>Issue d'un projet en Master CEN (HTML, CSS, JS)</p>
-					<a href="https://github.com/anojh-nageswaran/CrepesChaudesRestaurant">
-						<img src="img/github.png" alt="github">
-					</a>
-				</div>
-				<div class="projet-item">
-					<h5>CONSOLE ADMINISTRATEUR</h5>
-					<p>Issue d'un projet final en Licence Professionnelle (HTML, CSS, JS, PHP)</p>
-					<a href="doc/memoire_projet [Anojh_NAGESWARAN].pdf" class="btndld">Téléchargez</a>
-				</div>
-				<div class="projet-item">
-					<h5>JEU DE PLATEFORME (MARIO)</h5>
-					<p>Issue d'un projet en Licence Professionnelle (Java)</p>
-					<a href="doc/rapport mario (1).pdf" class="btndld">Téléchargez</a>
-				</div>
-				<div class="projet-item">
-					<h5>SITE WEB LERMA</h5>
-					<p>Issue d'un projet finale en DUT Informatique (HTML, CSS, JS, PHP, SPIP)</p>
-					<a href="doc/Rapport de Stage LERMA (1).pdf" class="btndld">Téléchargez</a>
-				</div>
-				<div class="projet-item">
-					<h5>THREES</h5>
-					<p>Issue d'un projet tutoré pour le 1er Semestre du DUT Informatique (Python)</p>
-					<a href="https://github.com/anojh-nageswaran/jeu-threes">
-						<img src="img/github.png" alt="bouton">
-					</a>
-				</div>
-			</section>
-		</main>
+		<div class="divider"></div>
 
-		<!--CONTACTS-->	
-		<footer>	
-	    	<div class="contact">
-	        	<h3>Pour me contacter : </h3>
-	        	<p>Email : anojhnageswaran@gmail.com</p>
-				<p>Téléphone : 06.52.33.02.77</p>
-				<a href="https://www.linkedin.com/in/anojh-nageswaran/" class="reseau">
-					<img src="img/linkedin.png" alt="linkedin">
-				</a>
-        	</div>
-     	</footer>
-  	</body>
+		<!-- CONTACT -->
+		<section id="contact">
+		  <div class="section-eyebrow">
+		    <span class="eyebrow-num">04</span>
+		    <span class="eyebrow-label">Contact</span>
+		  </div>
+		  <div class="contact-box">
+		    <h2>TRAVAILLONS <span>ENSEMBLE.</span></h2>
+		    <p>Disponible pour un CDI ou via un dispositif POEI. Éligible France Travail — la formation est prise en charge à 100%.</p>
+		    <div class="contact-links">
+		      <a href="mailto:anojhnageswaran@gmail.com" class="c-chip">
+		        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+		        anojhnageswaran@gmail.com
+		      </a>
+		      <a href="tel:0652330277" class="c-chip">
+		        <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.77 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+		        06 52 33 02 77
+		      </a>
+		      <a href="https://www.linkedin.com/in/anojh-nageswaran/" class="c-chip" target="_blank">
+		        <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+		        LinkedIn
+		      </a>
+		    </div>
+		  </div>
+		</section>
+
+		<footer>
+		  <span>© 2025 Anojh Nageswaran</span>
+		  <span class="footer-tamil">நன்றி</span>
+		  <span style="color:var(--muted);font-size:0.75rem;">Développeur Full Stack · Paris</span>
+		</footer>
+
+	</body>
 </html>
